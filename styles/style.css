@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Google Sans Code";
+}
+
+/* reuse of container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* navber */
+.navber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 00;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-social-icon {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 5px;
+}
+
+.nav-social-icon li img {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../assets/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* hero section */
+.hero-section {
+  margin-top: 30px;
+}
+
+.top-heading h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-size: 8.5rem;
+}
+
+.top-heading {
+  position: relative;
+}
+.top-heading .top-div {
+  max-width: 600px;
+  color: white;
+  position: absolute;
+  right: 70px;
+  top: 150px;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+.botton-heading {
+  color: white;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: space-between;
+  gap: 20%;
+  font-size: 1.1rem;
+}
