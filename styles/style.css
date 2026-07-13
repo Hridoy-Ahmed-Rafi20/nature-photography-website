@@ -60,7 +60,7 @@ body {
 
 header {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../assets/hero-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -70,14 +70,14 @@ header {
 
 /* hero section */
 .hero-section {
-  margin-top: 30px;
+  margin-top: 130px;
 }
 
 .top-heading h1 {
   text-transform: uppercase;
   color: white;
   font-weight: 500;
-  font-size: 8.5rem;
+  font-size: 6rem;
 }
 
 .top-heading {
@@ -89,7 +89,7 @@ header {
   position: absolute;
   right: 70px;
   top: 150px;
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 1.1rem;
 }
 
@@ -97,9 +97,65 @@ header {
   color: white;
   margin-top: 200px;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: space-between;
   gap: 20%;
   font-size: 1.1rem;
+}
+
+/* main section */
+.discover-section {
+  margin-top: 100px;
+}
+
+.discover-text-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+.discover-text-container h1 {
+  font-weight: 400;
+}
+
+.discover-text-container button {
+  margin-top: 40px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 240px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card-container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 80%;
+  border-radius: 12px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-text {
+  margin-top: 30px;
+}
+
+.card-text h2 {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 1rem;
 }
