@@ -130,6 +130,13 @@ header {
   font-weight: 600;
 }
 
+.discover-text-container button:hover {
+  color: white;
+  background: #8f929585;
+  cursor: pointer;
+  border: none;
+}
+
 .card-container {
   margin-top: 100px;
   display: grid;
@@ -344,6 +351,13 @@ ul li {
   background: #1105ff;
 }
 
+.team-member-text button:hover {
+  cursor: pointer;
+  color: #1105ff;
+  border: 1px solid #1105ff;
+  background-color: white;
+}
+
 /* creative-secton */
 .creative-secton {
   background-image:
@@ -384,6 +398,13 @@ ul li {
   text-transform: uppercase;
   border: 1px solid white;
   border-radius: 25px;
+}
+
+.creative-secton-info button:hover {
+  cursor: pointer;
+  border: none;
+  background: rgba(255, 255, 255, 0.127);
+  color: white;
 }
 
 /* footer */
@@ -428,5 +449,3 @@ footer {
   justify-content: space-between;
   font-size: 0.8rem;
 }
-
-
