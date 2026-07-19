@@ -199,6 +199,10 @@ header {
   border: 1px solid #8f929556;
   border-radius: 12px;
 }
+.box:hover{
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.030);
+}
 
 .box h1 {
   font-weight: 400;
